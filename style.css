@@ -19,7 +19,7 @@ body {
     background-image: linear-gradient(to top, #4298ad 0%, #91c0a4 100%);
     padding: 20px;
     width: 50vw;
-    height: 50vh;
+    height: 70vh;
     justify-content: center;    
     align-items: center;
     flex-flow: row wrap;
@@ -33,6 +33,7 @@ body {
     font-family: 'Roboto Mono', monospace;
     padding: 10px;
     font-style: bolder;
+    flex-flow: row wrap;
 
     
 }
@@ -44,6 +45,7 @@ body {
     display: flex;
     padding: 10px;  
     flex-direction: column;
+    flex-flow: row wrap;
     
     
 }
@@ -52,7 +54,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 40%;
+    width: 35%;
     
 }
 
