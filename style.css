@@ -19,7 +19,7 @@ body {
     background-image: linear-gradient(to top, #4298ad 0%, #91c0a4 100%);
     padding: 20px;
     width: 50vw;
-    height: 90vh;
+    height: 50vh;
     justify-content: center;    
     align-items: center;
     flex-flow: row wrap;
