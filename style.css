@@ -1,29 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&display=swap');
 
 body {
-
-    background-repeat: no-repeat;
     background-color: rgb(34, 33, 33);
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
-    height: 100vh;
-    
-    
+    height: 100vh;   
+}
+
+body > * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 #container{
-    border-radius: 80px;
+    border-radius: 20px;
     display:flex;
     background-image: linear-gradient(to top, #4298ad 0%, #91c0a4 100%);
-    padding: 20px;
-    width: 30vw;
-    height: 50vh;
+    padding: 60px 40px;
+    
     justify-content: center;    
     align-items: center;
-    flex-flow: row wrap;
-   
+    flex-flow: row wrap;  
+}
+
+#container > * {
+    margin: 0;
+    box-sizing: border-box;
 }
 
 #apresentacao{
@@ -34,6 +40,7 @@ body {
     padding: 10px;
     font-style: bolder;
     flex-flow: row wrap;
+    flex-direction: column;
 
     
 }
@@ -52,7 +59,8 @@ body {
 
 #foto{
     display: flex;
-    align-items: left;
+    align-items: center;
+    justify-content: center;
     width: 25%;
     
 }
@@ -78,7 +86,9 @@ body {
 
 #logos{
     display: flex;
-    align-items: left;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 
 #contato{
